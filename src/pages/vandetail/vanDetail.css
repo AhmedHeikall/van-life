@@ -1,0 +1,110 @@
+.vanlife__vandetail {
+  padding: 4rem 1.8rem;
+}
+
+.vanlife__vandetail .vandetail__img {
+  width: 100%;
+  background: lightgray 50% / cover no-repeat;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+}
+
+.vandetail__name {
+  color: var(--black-color);
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.vandetail__price {
+  margin-bottom: 1.5rem;
+}
+.vandetail__price span {
+  color: #161616;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.vandetail__price {
+  color: #161616;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.vandetail__descrption {
+  color: #161616;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2rem;
+  margin-bottom: 1.5rem;
+}
+.vandetail__loading {
+  margin: auto;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 900px) {
+  .vandetail__name {
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .vandetail__price {
+    margin-bottom: 1.2rem;
+  }
+  .vandetail__price span {
+    font-size: 1.8rem;
+  }
+  .vandetail__price {
+    font-size: 1.6rem;
+  }
+  .vandetail__descrption {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .vandetail__descrption {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .vandetail__name {
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+  .vandetail__price span {
+    font-size: 1.4rem;
+  }
+  .vandetail__price {
+    font-size: 1.4rem;
+  }
+  .vandetail__descrption {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .vanlife__vandetail {
+    padding: 2rem 1rem;
+  }
+  .vandetail__descrption {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  .vandetail__back-link {
+    margin-bottom: 1rem;
+  }
+  .vandetail__type {
+    margin-bottom: 1.2rem;
+  }
+  .vanlife__vandetail .vandetail__img {
+    margin-bottom: 1.5rem;
+  }
+}

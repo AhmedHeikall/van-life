@@ -1,0 +1,130 @@
+/* 
+--- 01 TYPOGRAPHY SYSTEM
+
+-Font sizes (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+
+-Font wights:
+Default: 400
+400 / 500 / 600 / 700 / 900 
+
+-Line heights: 
+Default: 1 ,24px ,42px , 
+
+--- 02 COLORS
+
+-primary:#FFF7ED
+-Tints:  #FF8C38, #E17654, #115E59, #68FF65, #748AFF, 
+-Shades: #FFEAD0, #FFCC8D, #FFDDB2
+-Accents:
+-Grays:  #4D4D4D , #B9B9B9, #AAAAAA, #858585, #8C8C8C, #8C8C8C, #C7C7C7 ,#D1D5DB
+-Blacks: #1C1C1C, #161616 , #000000, #252525, #201F1D, 
+
+--- 03 SHADOWS
+
+--- 04 BORDER RADIOUS
+4.983px, 5px , 
+
+--- 05 WHITE SPACE
+
+- SPACING SYSTEM
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+:root {
+  --white-color: #fff;
+  --background-color: #fff7ed;
+  --sec-background-color: #ffcc8d;
+  --nav-link-color: #4d4d4d;
+  --black-color: #161616;
+  --footer-color: #252525;
+  --footer-text-color: #aaaaaa;
+  --main-button-color: #ff8c38;
+  --orange-color: #ff8c38;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 62.5%;
+  font-weight: 400;
+  line-height: 1;
+  background-color: var(--background-color);
+
+  min-height: 100vh;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 1.8rem;
+  margin: 0 auto;
+}
+
+.scale-up-center {
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+/* SMALL */
+@media (min-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+}
+/* MEDIUM */
+@media (min-width: 992px) {
+  .container {
+    max-width: 970px;
+  }
+}
+/* LARGE */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1750px;
+  }
+}
+
+/* ######################################################## */

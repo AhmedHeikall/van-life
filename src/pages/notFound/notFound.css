@@ -1,0 +1,21 @@
+.vanlife__notfound {
+  padding: 4rem 1.8rem;
+  height: 100vh;
+}
+.vanlife__notfound h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 4rem;
+  color: #161616;
+  margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 550px) {
+  .vanlife__notfound {
+    padding: 4rem 1rem;
+  }
+  .vanlife__notfound h1 {
+    font-size: 2.2rem;
+    line-height: 3rem;
+  }
+}

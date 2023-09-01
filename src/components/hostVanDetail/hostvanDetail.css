@@ -1,0 +1,113 @@
+.vanlife__hostvan-detail {
+  padding: 0 1.8rem;
+}
+
+.hostvan-detail__van-container {
+  width: 100%;
+  padding: 2rem 2rem;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.hostvan-detail__header {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.hostvan-detail__img-container {
+  width: 300px;
+}
+.hostvan-detail__img-container img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.hostvan-detail__name {
+  color: var(--black-color);
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.hostvan-detail__price {
+  color: #161616;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.hostvan-detail__price span {
+  color: #161616;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.hostvan__navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.hostvan__navbar ul a {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #4d4d4d;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.hostvan__navbar ul a:hover {
+  text-decoration: underline;
+  color: #161616;
+}
+
+.hostvan__navbar ul a.active-link {
+  text-decoration: underline;
+  color: #161616;
+}
+
+@media screen and (max-width: 900px) {
+  .hostvan-detail__name {
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .hostvan-detail__price {
+    margin-bottom: 1.2rem;
+  }
+  .hostvan-detail__price span {
+    font-size: 1.8rem;
+  }
+
+  .hostvan__navbar ul a {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .hostvan-detail__van-container {
+    padding: 2rem 1rem;
+  }
+  .hostvan-detail__header {
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .hostvan-detail__name {
+    font-size: 1.4rem;
+    margin-bottom: 1.1rem;
+  }
+
+  .hostvan-detail__price {
+    margin-bottom: 1rem;
+  }
+  .hostvan-detail__price span {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .vanlife__hostvan-detail {
+    padding: 0 1rem;
+  }
+}

@@ -1,0 +1,165 @@
+.vanlife__income {
+  padding: 0 1.8rem;
+}
+.income__heading h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+  color: var(--black-color);
+}
+.last30days p {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #4d4d4d;
+}
+.last30days p span {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.income__heading h3 {
+  font-size: 4.8rem;
+  font-weight: 800;
+  line-height: 3.8rem;
+  color: var(--black-color);
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+.traansactions-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+.traansactions-heading h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: var(--black-color);
+}
+.income-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.income-card {
+  width: 100%;
+  height: 150px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.income-card h1 {
+  font-size: 3.6rem;
+  font-weight: 600;
+  color: var(--black-color);
+}
+.income-card p {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+
+.income__chart img {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 900px) {
+  .income__heading h1 {
+    font-size: 3rem;
+  }
+  .last30days p {
+    font-size: 1.4rem;
+  }
+  .income__heading h3 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+  .last30days p {
+    font-size: 1rem;
+  }
+  .traansactions-heading h1 {
+    font-size: 2rem;
+  }
+  .income-card h1 {
+    font-size: 3rem;
+  }
+  .income-card p {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .income__heading h1 {
+    font-size: 2.4rem;
+  }
+  .income__heading h3 {
+    font-size: 3.6rem;
+    margin-bottom: 2.6rem;
+    margin-top: 2.6rem;
+  }
+  .last30days p {
+    font-size: 1rem;
+  }
+  .traansactions-heading h1 {
+    font-size: 1.6rem;
+  }
+  .income-card h1 {
+    font-size: 2.6rem;
+  }
+  .income-card p {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .vanlife__income {
+    padding: 0 1rem;
+  }
+  .income__heading h1 {
+    font-size: 2.4rem;
+  }
+  .income__heading h3 {
+    font-size: 3.6rem;
+    margin-bottom: 2.6rem;
+    margin-top: 2.6rem;
+  }
+  .last30days p {
+    font-size: 1rem;
+  }
+  .traansactions-heading h1 {
+    font-size: 1.6rem;
+  }
+  .income-card h1 {
+    font-size: 2.6rem;
+  }
+  .income-card p {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .income__heading h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .income__heading h3 {
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .traansactions-heading h1 {
+    font-size: 1.2rem;
+  }
+  .income-card h1 {
+    font-size: 2rem;
+  }
+  .income-card p {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,35 @@
+.vanlife__host-vans {
+  padding: 0 1.8rem;
+}
+.vanlife__host-vans h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: var(--black-color);
+  margin-bottom: 3rem;
+}
+.host-vans__listed-vans {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+  .vanlife__host-vans h1 {
+    font-size: 2.4rem;
+    line-height: 3rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .vanlife__host-vans {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .vanlife__host-vans h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}

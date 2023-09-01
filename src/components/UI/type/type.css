@@ -1,0 +1,24 @@
+.vandetail__type {
+  display: block;
+  width: 100px;
+  max-width: 100%;
+  color: #ffead0;
+  background-color: #e17654;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 0.6rem 0.8rem;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+}
+
+.simple {
+  background-color: #e17654;
+}
+.luxury {
+  background-color: #161616;
+}
+.rugged {
+  background-color: #115e59;
+}

@@ -1,0 +1,34 @@
+.van-card img {
+  width: 100%;
+  border-radius: 5px;
+  background: lightgray 50% / cover no-repeat;
+}
+
+.van-card .card-info {
+  margin-top: 1rem;
+}
+
+.van-card .card-info .card-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.van-card .card-info h3 {
+  flex: 1;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--black-color);
+}
+.van-card .card-info .price {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--black-color);
+}
+.van-card .card-info .day {
+  display: flex;
+  justify-content: flex-end;
+  color: var(--black-color);
+  font-size: 0.8rem;
+}

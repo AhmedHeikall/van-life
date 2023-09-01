@@ -1,0 +1,25 @@
+.vandetail__back-link {
+  margin-bottom: 2rem;
+}
+.vandetail__back-link a {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--nav-link-color);
+  text-decoration: underline;
+}
+.vandetail__back-link svg {
+  width: 1.1rem;
+  stroke: var(--nav-link-color);
+  stroke-width: 0.1rem;
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 900px) {
+  .vandetail__back-link a {
+    font-size: 1.2rem;
+  }
+  .vandetail__back-link svg {
+    width: 1rem;
+    margin-right: 0.4rem;
+  }
+}

@@ -1,0 +1,110 @@
+.vanlife__navbar {
+  padding: 2.8rem 1.8rem;
+}
+
+.vanlife__navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .vanlife__navbar-container_logo {
+  width: 14.4rem;
+  height: 4rem;
+} */
+
+.vanlife__navbar-container_logo .main-logo {
+  width: 14.4rem;
+}
+
+.vanlife__navbar_mainnav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.vanlife__navbar_mainnav a,
+.vanlife__navbar-menu-container a {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--nav-link-color);
+  transition: 0.3s;
+}
+
+.vanlife__navbar_mainnav a:hover,
+.vanlife__navbar-menu-container a:hover {
+  color: var(--black-color);
+  text-decoration: underline;
+}
+
+.vanlife__navbar_mainnav .user-logo,
+.vanlife__navbar-menu-container .user-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  stroke: var(--nav-link-color);
+}
+
+.vanlife__navbar-menu {
+  display: none;
+}
+
+.vanlife__navbar-menu-container {
+  position: relative;
+}
+
+.vanlife__navbar-menu-container ul {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  background-color: #ffead0;
+  padding: 2rem;
+  margin-top: 1rem;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+
+.vanlife__navbar_mainnav a.active,
+.vanlife__navbar-menu-container a.active {
+  text-decoration: underline;
+  color: var(--black-color);
+}
+
+@media screen and (max-width: 900px) {
+  .vanlife__navbar-container_logo .main-logo {
+    width: 12rem;
+  }
+  .vanlife__navbar_mainnav a,
+  .vanlife__navbar-menu-container a {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .vanlife__navbar_mainnav {
+    display: none;
+  }
+  .vanlife__navbar-menu {
+    display: flex;
+  }
+  .vanlife__navbar-container_logo .main-logo {
+    width: 12rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .vanlife__navbar {
+    padding: 2rem 1rem;
+  }
+  .vanlife__navbar-container_logo .main-logo {
+    width: 10rem;
+  }
+}

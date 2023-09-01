@@ -1,0 +1,70 @@
+.vanlife__host {
+  padding: 4rem 0;
+}
+
+.host__navbar {
+  padding: 0 1.8rem;
+  margin-bottom: 4rem;
+}
+.host__navbar ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.host__navbar a {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--nav-link-color);
+  transition: 0.3s;
+}
+
+.host__navbar a:hover {
+  color: var(--black-color);
+  text-decoration: underline;
+}
+
+a.active-link {
+  color: var(--black-color);
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+  .host__navbar a {
+    font-size: 1.2rem;
+  }
+  .host__navbar ul {
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .host__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 1rem;
+    margin-bottom: 0rem;
+  }
+  .host__navbar ul {
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .host__navbar ul {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .host__navbar ul {
+    gap: 0.8rem;
+  }
+
+  .host__navbar a {
+    font-size: 1rem;
+  }
+}

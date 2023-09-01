@@ -1,0 +1,141 @@
+/****** Income Section ******/
+.dashboard__income {
+  background-color: #ffead0;
+  padding: 3rem 1.8rem;
+}
+.dashboard__income-welcome {
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  margin-bottom: 2rem;
+  color: var(--black-color);
+}
+.dashboard__income-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+.dashboard__income-details p,
+.dashboard__listed-vans-text p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.2rem;
+  color: #4d4d4d;
+  cursor: pointer;
+}
+.dashboard__income-details p span {
+  text-decoration: underline;
+}
+.dashboard__total-mony {
+  font-size: 4.8rem;
+  font-weight: 800;
+  line-height: 3.8rem;
+  color: var(--black-color);
+}
+/****** Reviews Section ******/
+.dashboard__reviews {
+  background-color: #ffddb2;
+  padding: 4rem 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+.dashboard__reviews-score {
+  display: flex;
+  align-items: center;
+}
+
+.dashboard__reviews-score p {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  margin-right: 1rem;
+}
+
+.dashboard__reviews p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.2rem;
+  color: #4d4d4d;
+}
+
+/****** Vans Section *******/
+.dashboard__listed-vans {
+  padding: 0 1.8rem;
+}
+
+.dashboard__listed-vans-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+.dashboard__listed-vans-text h3 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  color: var(--black-color);
+}
+.dashboard__listed-vans-text p a {
+  color: var(--black-color);
+}
+
+@media screen and (max-width: 900px) {
+  .dashboard__income-welcome {
+    font-size: 3rem;
+    margin-bottom: 1.8rem;
+  }
+  .dashboard__income-details p,
+  .dashboard__listed-vans-text p {
+    font-size: 1.4rem;
+  }
+  .dashboard__total-mony {
+    font-size: 3.6rem;
+  }
+  .dashboard__reviews {
+    padding: 3rem 1.8rem;
+  }
+  .dashboard__reviews p {
+    font-size: 1.4rem;
+  }
+  .dashboard__listed-vans-text h3 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .dashboard__income {
+    padding: 3rem 1rem;
+  }
+  .dashboard__income-welcome {
+    font-size: 2.4rem;
+    margin-bottom: 1.4rem;
+  }
+  .dashboard__income-details p,
+  .dashboard__listed-vans-text p {
+    font-size: 1.2rem;
+  }
+  .dashboard__total-mony {
+    font-size: 3rem;
+    line-height: 1rem;
+  }
+  .dashboard__reviews {
+    padding: 3rem 1rem;
+  }
+  .dashboard__reviews p {
+    font-size: 1.2rem;
+  }
+  .dashboard__listed-vans {
+    padding: 0 1rem;
+  }
+  .dashboard__listed-vans-text {
+    flex-wrap: wrap;
+  }
+  .dashboard__listed-vans-text h3 {
+    font-size: 1.6rem;
+  }
+}

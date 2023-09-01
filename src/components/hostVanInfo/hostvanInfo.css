@@ -1,0 +1,28 @@
+.vanlife__hostvan__detail h3 {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-weight: 500;
+  color: #161616;
+  margin-bottom: 1rem;
+}
+.vanlife__hostvan__detail h3 span {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 700;
+  color: #161616;
+}
+.vanlife__hostvan__photos {
+  max-width: 200px;
+}
+.vanlife__hostvan__photos img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  .vanlife__hostvan__detail h3,
+  .vanlife__hostvan__detail h3 span {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+}
