@@ -1,7 +1,11 @@
 # VANLIFE
 
 Vanlife is A web application that allows people to rent out camp vans for their next road trip adventure.
+
+
 VAN-LIFE V.1
+
+in V.2 we add: defer, Await, and Suspense To handle some loading because we using a loader instead useEffect() hook and add real authentication
 
 
 See the project here: https://vanlife-d137c.web.app
