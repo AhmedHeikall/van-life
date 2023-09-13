@@ -17,7 +17,7 @@ LinkedIn : https://www.linkedin.com/in/ahmed-heikal-875175236
 
 - SPA with 10+ routes
 - Responsive Design (mobile - tablet - desktop)
-- Using loader (API data layer) faster 3x times
+- Using "loader" to provide data to the route element before it renders.  faster 3x times than regular useEffect()
 - Using Link State
 - Filter by van type (query params)
 - Using Relative Path and Link
